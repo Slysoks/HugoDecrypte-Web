@@ -1,5 +1,7 @@
 # HugoDécrypte Web
-Ce site web est un un projet personnel visant à créer un site internet dans le même style que la chaîne YouTube [HugoDécrypte](https://www.youtube.com/c/HugoD%C3%A9crypte) d'HugoDécrypte. Ce site web n'est en aucun cas affilié à HugoDécrypte ou à sa chaîne YouTube. Les contenus présentés sur ce site sont uniquement destinés à des fins de démonstration.
+
+## Disclaimer
+Ce site web est un un projet personnel visant à créer un site internet dans le même style que la chaîne YouTube [HugoDécrypte](https://www.youtube.com/c/HugoD%C3%A9crypte). Ce site web n'est en aucun cas affilié à HugoDécrypte ou à sa chaîne YouTube. Les contenus présentés sur ce site sont uniquement destinés à des fins de démonstration et d'entraînement.
 
 ## Technologies Utilisées
 - React
