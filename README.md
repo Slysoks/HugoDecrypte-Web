@@ -12,11 +12,11 @@ Ce site web est un un projet personnel visant à créer un site internet dans le
 ## Installation
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/Slysoks/hugo-decrypte-web.git
+   git clone https://github.com/Slysoks/HugoDecrypte-Web.git
    ```
 2. Accédez au répertoire du projet :
    ```bash
-   cd hugo-decrypte-web
+   cd HugoDecrypte-Web
    ```
 3. Installez les dépendances :
    ```bash
