@@ -2,7 +2,6 @@ import "./style.css";
 import { useState, useEffect } from "react";
 
 const Hero = () => {
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const items = document.getElementsByClassName("item");
 
@@ -46,14 +45,19 @@ const Hero = () => {
     <div>
       <div className="hero">
         <div className="caroussel">
-          <a className="item" href="https://youtu.be/A1EXtOICuJM" target="_blank" rel="noreferrer">
+          <a
+            className="item"
+            href="https://youtu.be/Xk5GrKqng6E"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
-              src="https://img.youtube.com/vi/A1EXtOICuJM/maxresdefault.jpg"
+              src="https://img.youtube.com/vi/Xk5GrKqng6E/maxresdefault.jpg"
               alt=""
             />
             <div className="item-info">
               <h2>
-                Des nouvelles preuves ciblent Trump dans le scandale Epstein,
+                Une affaire de corruption touche le pouvoir en Ukraine,
                 explications
               </h2>
               <div className="item-creator">
@@ -62,7 +66,12 @@ const Hero = () => {
               </div>
             </div>
           </a>
-          <a className="item" href="https://youtu.be/AM01IUcUiOw" target="_blank" rel="noreferrer">
+          <a
+            className="item"
+            href="https://youtu.be/AM01IUcUiOw"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src="https://img.youtube.com/vi/AM01IUcUiOw/maxresdefault.jpg"
               alt=""
@@ -78,7 +87,12 @@ const Hero = () => {
               </div>
             </div>
           </a>
-          <a className="item" href="https://youtu.be/7CxMOIL3AgQ" target="_blank" rel="noreferrer">
+          <a
+            className="item"
+            href="https://youtu.be/7CxMOIL3AgQ"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src="https://img.youtube.com/vi/7CxMOIL3AgQ/maxresdefault.jpg"
               alt=""
@@ -95,8 +109,12 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <button id="prev" onClick={prevScreen}>Previous</button>
-      <button id="next" onClick={nextScreen}>Next</button>
+      <button id="prev" onClick={prevScreen}>
+        Previous
+      </button>
+      <button id="next" onClick={nextScreen}>
+        Next
+      </button>
     </div>
   );
 };
